@@ -1,4 +1,7 @@
 package ArtPort.Catalog;
 
-public class Vehicle {
+public class Vehicle extends Catalog {
+
+
+
 }

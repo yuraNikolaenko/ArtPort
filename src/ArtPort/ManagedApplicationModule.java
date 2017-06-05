@@ -7,11 +7,10 @@ public class ManagedApplicationModule {
 
     public static void main(String[] args) {
 
-        Order order = new Order();
-        System.out.println("order = " + order);
-
-        Voyage voyage = new Voyage();
-        System.out.println("voyage = " + voyage);
-
+        Order order = new Order(1,"Order1");
+        order.posting();
+        System.out.println(order.getNameDocument());
+        System.out.println(order.getIdClassDocument());
+        order.test();
     }
 }
