@@ -5,7 +5,7 @@ import ArtPort.Catalog.*;
 import java.util.ArrayList;
 import java.util.Date;
 
-public class Order extends BaseDocument {
+public class Order extends AbstractDocument {
 
     private int idOrder;
     private Date orderDate;
@@ -26,7 +26,6 @@ public class Order extends BaseDocument {
     @Override
     public void posting(){
 
-        System.out.println("Order posting");
     }
     public  void test(){}
 }

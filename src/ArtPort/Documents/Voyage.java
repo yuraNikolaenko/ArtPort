@@ -5,7 +5,7 @@ import ArtPort.Catalog.Vehicle;
 import java.util.ArrayList;
 import java.util.Date;
 
-public class Voyage extends BaseDocument{
+public class Voyage extends AbstractDocument {
 
     private int idVoyage;
     private Date orderDate;
@@ -13,7 +13,10 @@ public class Voyage extends BaseDocument{
 
     private ArrayList<Order> orderList;
 
-    public Voyage() {
+    public Voyage() { }
+
+    public void posting() {
+
     }
 
     public int getIdVoyage() {

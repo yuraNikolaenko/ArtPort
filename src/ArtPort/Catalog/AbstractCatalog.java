@@ -1,6 +1,10 @@
 package ArtPort.Catalog;
 
-public class BaseCatalog {
+import ArtPort.Interface.ICatalog;
+
+public class AbstractCatalog implements ICatalog {
+
+    private String nameCatalog;
 
     public void onWrite(){ }
 
@@ -11,4 +15,5 @@ public class BaseCatalog {
     public void filling(){}
 
     public void beforeDelete(){}
+
 }

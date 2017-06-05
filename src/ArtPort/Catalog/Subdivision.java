@@ -1,4 +1,4 @@
 package ArtPort.Catalog;
 
-public class Subdivision {
+public class Subdivision extends AbstractCatalog{
 }

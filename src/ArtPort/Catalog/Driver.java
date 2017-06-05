@@ -1,4 +1,4 @@
 package ArtPort.Catalog;
 
-public class Driver extends BaseCatalog{
+public class Driver extends AbstractCatalog {
 }

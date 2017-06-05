@@ -1,23 +1,24 @@
 package ArtPort.Documents;
 
-public class BaseDocument {
+import ArtPort.Interface.IDocument;
+
+public abstract class AbstractDocument implements IDocument {
 
     private int idDocument;
     private String nameDocument;
 
-    public BaseDocument() {
-    }
+    public AbstractDocument() { }
 
-    public BaseDocument(int idDocument, String nameDocument) {
+    public AbstractDocument(int idDocument, String nameDocument) {
         this.idDocument = idDocument;
         this.nameDocument = nameDocument;
     }
 
-    public BaseDocument(int idDocument) {
+    public AbstractDocument(int idDocument) {
         this.idDocument = idDocument;
     }
 
-    public BaseDocument(String nameDocument) {
+    public AbstractDocument(String nameDocument) {
         this.nameDocument = nameDocument;
     }
 
@@ -28,8 +29,6 @@ public class BaseDocument {
     public void setIdClassDocument(int idDocument) {
         this.idDocument = idDocument;
     }
-
-    public void posting(){}
 
     public void onCopy(){ }
 
