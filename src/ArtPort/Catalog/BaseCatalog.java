@@ -1,6 +1,6 @@
 package ArtPort.Catalog;
 
-public class Catalog {
+public class BaseCatalog {
 
     public void onWrite(){ }
 

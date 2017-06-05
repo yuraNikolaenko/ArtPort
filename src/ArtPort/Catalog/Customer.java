@@ -1,6 +1,7 @@
 package ArtPort.Catalog;
 
-public class Customer {
+public class Customer extends BaseCatalog
+{
     private int idCustomer;
     private String customerName;
 

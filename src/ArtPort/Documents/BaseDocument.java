@@ -1,23 +1,23 @@
 package ArtPort.Documents;
 
-public class Document {
+public class BaseDocument {
 
     private int idDocument;
     private String nameDocument;
 
-    public Document() {
+    public BaseDocument() {
     }
 
-    public Document(int idDocument, String nameDocument) {
+    public BaseDocument(int idDocument, String nameDocument) {
         this.idDocument = idDocument;
         this.nameDocument = nameDocument;
     }
 
-    public Document(int idDocument) {
+    public BaseDocument(int idDocument) {
         this.idDocument = idDocument;
     }
 
-    public Document(String nameDocument) {
+    public BaseDocument(String nameDocument) {
         this.nameDocument = nameDocument;
     }
 
@@ -30,7 +30,7 @@ public class Document {
     }
 
     public void posting(){
-        System.out.println("Document posting");
+        System.out.println("BaseDocument posting");
     }
 
     public void onCopy(){ }

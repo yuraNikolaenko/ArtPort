@@ -1,13 +1,11 @@
 package ArtPort.Documents;
 
-import ArtPort.Catalog.Customer;
-import ArtPort.Catalog.Driver;
-import ArtPort.Catalog.Storage;
-import ArtPort.Catalog.Vehicle;
+import ArtPort.Catalog.*;
 
+import java.util.ArrayList;
 import java.util.Date;
 
-public class Order extends Document{
+public class Order extends BaseDocument {
 
     private int idOrder;
     private Date orderDate;
@@ -15,6 +13,8 @@ public class Order extends Document{
     private Customer customer;
     private Driver driver;
     private Storage storage;
+
+    private ArrayList<Good> goodList;
 
     public Order() {
     }
