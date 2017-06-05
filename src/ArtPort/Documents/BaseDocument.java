@@ -29,9 +29,7 @@ public class BaseDocument {
         this.idDocument = idDocument;
     }
 
-    public void posting(){
-        System.out.println("BaseDocument posting");
-    }
+    public void posting(){}
 
     public void onCopy(){ }
 
