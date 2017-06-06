@@ -7,12 +7,15 @@ import java.util.Date;
 public abstract class AbstractDocument implements IDocument {
 
     private Date dateTime;
-    private char number;
+    private String number;
     private boolean marked;
     private boolean posted;
 
+    public static int documentCost;
 
-    public AbstractDocument() { }
+    public AbstractDocument() {}
+
+    public void checkDocument(){documentCost++;}
 
     public void onCopy(){ }
 
@@ -22,4 +25,12 @@ public abstract class AbstractDocument implements IDocument {
 
     public void beforeDelete(){}
 
+
+    public String getNumber() {
+        return number;
+    }
+
+    public void setNumber(String number) {
+        this.number = number;
+    }
 }

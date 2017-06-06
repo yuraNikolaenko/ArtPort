@@ -1,13 +1,20 @@
 package ArtPort.Registers;
 
+import ArtPort.Documents.AbstractDocument;
+import ArtPort.Enums.AccumulationRecordType;
+
 import java.util.Date;
 
 public abstract class AbstractAccumulationRegister {
 
     private Date period;
-    private char recorder;
+    private AbstractDocument recorder;
     private int lineNo;
     private boolean active;
-    private int recordKind;
+    private AccumulationRecordType recordKind;
 
 }
+
+
+
+
