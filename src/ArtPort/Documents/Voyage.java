@@ -7,8 +7,6 @@ import java.util.Date;
 
 public class Voyage extends AbstractDocument {
 
-    private int idVoyage;
-    private Date orderDate;
     private Vehicle vehicle;
 
     private ArrayList<Order> orderList;
@@ -17,22 +15,6 @@ public class Voyage extends AbstractDocument {
 
     public void posting() {
 
-    }
-
-    public int getIdVoyage() {
-        return idVoyage;
-    }
-
-    public void setIdVoyage(int idVoyage) {
-        this.idVoyage = idVoyage;
-    }
-
-    public Date getOrderDate() {
-        return orderDate;
-    }
-
-    public void setOrderDate(Date orderDate) {
-        this.orderDate = orderDate;
     }
 
     public Vehicle getVehicle() {

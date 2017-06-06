@@ -2,9 +2,14 @@ package ArtPort.Catalog;
 
 import ArtPort.Interface.ICatalog;
 
-public class AbstractCatalog implements ICatalog {
+public abstract class AbstractCatalog implements ICatalog {
 
     private String nameCatalog;
+
+    private int code;
+    private char description;
+    private boolean marked;
+    private char idCatalog;
 
     public void onWrite(){ }
 
