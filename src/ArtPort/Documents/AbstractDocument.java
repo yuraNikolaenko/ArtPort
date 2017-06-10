@@ -18,13 +18,9 @@ public abstract class AbstractDocument implements IDocument {
     public void checkDocument(){documentCost++;}
 
     public void onCopy(){ }
-
     public void beforeWrite(){}
-
     public void filling(){}
-
     public void beforeDelete(){}
-
 
     public String getNumber() {
         return number;
