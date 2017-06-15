@@ -1,45 +1,21 @@
 package ArtPort;
 
-import ArtPort.Catalog.Subdivision;
-import ArtPort.Documents.AbstractDocument;
-import ArtPort.Documents.Order;
-import ArtPort.Documents.Voyage;
-import ArtPort.Enums.AccumulationRecordType;
-import ArtPort.Interface.ICatalog;
-import ArtPort.Interface.IDocument;
-
-import java.util.ArrayList;
+import ArtPort.Catalog.Vehicle.Vehicle;
 
 public class ManagedApplicationModule {
 
 
     public static void main(String[] args) {
 
-        AbstractDocument order = new Order();
-        order.checkDocument();
-        order.setNumber("first");
-        System.out.println(order.getNumber());
+        Vehicle vehicle = new Vehicle();
+        vehicle.setStateNumber("AA1111BB");
+
+        Vehicle vehicle2 = new Vehicle();
+        vehicle2.setStateNumber("AA2222BB");
 
 
-        AbstractDocument order1 = new Order();
-        order1.setNumber("second");
-        order1.checkDocument();
-        System.out.println(order1.getNumber());
-
-        System.out.println(AbstractDocument.documentCost);
-
-
-        AccumulationRecordType accumulationRecordType =AccumulationRecordType.EXPENSE;
-
-        switch (accumulationRecordType){
-            case EXPENSE:
-                System.out.println(AbstractDocument.documentCost);
-                break;
-            case RECEIPT:
-                break;
-        }
-
-
+        System.out.println(vehicle.getStateNumber());
+        System.out.println(vehicle2.getStateNumber());
 
 
     }

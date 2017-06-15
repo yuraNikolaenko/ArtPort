@@ -1,9 +1,8 @@
 package ArtPort.Documents;
 
-import ArtPort.Catalog.Vehicle;
+import ArtPort.Catalog.Vehicle.Vehicle;
 
 import java.util.ArrayList;
-import java.util.Date;
 
 public class Voyage extends AbstractDocument {
 

@@ -1,6 +1,7 @@
 package ArtPort.Documents;
 
 import ArtPort.Catalog.*;
+import ArtPort.Catalog.Vehicle.Vehicle;
 
 import java.util.ArrayList;
 

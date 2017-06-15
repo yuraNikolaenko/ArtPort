@@ -1,9 +1,14 @@
-package ArtPort.Catalog;
+package ArtPort.Catalog.Vehicle;
+
+import ArtPort.Catalog.AbstractCatalog;
 
 public class Vehicle extends AbstractCatalog implements ArtPort.Interface.IVehicle {
 
     private String stateNumber;
 
+    public Vehicle() {
+
+    }
 
     public Vehicle(String stateNumber) {
         this.setStateNumber(stateNumber);
