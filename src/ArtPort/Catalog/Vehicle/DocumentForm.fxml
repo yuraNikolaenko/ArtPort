@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="ArtPort.Catalog.Vehicle.DocumentFormController">
+  <children>
+    <GridPane layoutX="0.0" layoutY="20.0" prefHeight="490.0" prefWidth="723.0">
+      <children>
+        <VBox prefHeight="271.0" prefWidth="300.0" GridPane.columnIndex="0" GridPane.rowIndex="0">
+          <children>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <Button mnemonicParsing="false" text="Save and close">
+                  <HBox.margin>
+                    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" fx:id="x1" />
+                  </HBox.margin>
+                </Button>
+                <Button mnemonicParsing="false" text="Save" HBox.margin="$x1" />
+              </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+              <children>
+                <VBox prefHeight="200.0" prefWidth="100.0">
+                  <children>
+                    <HBox prefHeight="100.0" prefWidth="200.0">
+                      <children>
+                        <Label prefWidth="66.0" text="Model" HBox.margin="$x1" />
+                        <TextField prefWidth="200.0" HBox.margin="$x1" />
+                      </children>
+                    </HBox>
+                    <HBox prefHeight="100.0" prefWidth="200.0">
+                      <children>
+                        <Label text="Label" />
+                      </children>
+                    </HBox>
+                  </children>
+                </VBox>
+              </children>
+            </HBox>
+            <TabPane prefHeight="226.0" prefWidth="362.0" tabClosingPolicy="UNAVAILABLE">
+              <tabs>
+                <Tab text="Main">
+                  <content>
+                    <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                      <children>
+                        <VBox layoutX="181.0" layoutY="0.0" prefHeight="200.0" prefWidth="100.0">
+                          <children>
+                            <TextField prefWidth="200.0" />
+                          </children>
+                        </VBox>
+                      </children>
+                    </AnchorPane>
+                  </content>
+                </Tab>
+                <Tab text="Crew">
+                  <content>
+                    <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                      <children>
+                        <VBox layoutX="181.0" layoutY="0.0" prefHeight="200.0" prefWidth="100.0">
+                          <children>
+                            <TableView prefHeight="200.0" prefWidth="200.0">
+                              <columns>
+                                <TableColumn prefWidth="75.0" text="Column X" />
+                                <TableColumn prefWidth="75.0" text="Column X" />
+                              </columns>
+                            </TableView>
+                          </children>
+                        </VBox>
+                      </children>
+                    </AnchorPane>
+                  </content>
+                </Tab>
+              </tabs>
+            </TabPane>
+            <HBox prefHeight="100.0" prefWidth="200.0" />
+          </children>
+        </VBox>
+      </children>
+      <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      </columnConstraints>
+      <rowConstraints>
+        <RowConstraints maxHeight="164.0" minHeight="10.0" prefHeight="164.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="163.0" minHeight="10.0" prefHeight="163.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="163.0" minHeight="10.0" prefHeight="163.0" vgrow="SOMETIMES" />
+      </rowConstraints>
+    </GridPane>
+  </children>
+</AnchorPane>
