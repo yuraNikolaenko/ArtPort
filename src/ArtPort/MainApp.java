@@ -3,25 +3,54 @@ package ArtPort;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
-import javafx.scene.Scene;
+import javafx.scene.*;
 import javafx.scene.layout.AnchorPane;
-import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
-
 import java.io.IOException;
+import java.sql.*;
+
 
 public class MainApp extends Application {
 
     private Stage primaryStage;
     private AnchorPane rootLayout;
 
-
     public static void main(String[] args)
 
     {
+       launch(args);
+    }
 
-        System.out.println("hello");
-       // launch(args);
+    private static void initDBC() {
+
+        Connection con = null;
+        Statement stmt = null;
+        ResultSet res = null;
+
+        try {
+            Driver driver = (Driver) Class.forName("org.sqlite.JDBC").newInstance();
+            String url = "jdbc:sqlite:C://ArtPort/db/artport.db";
+            con = DriverManager.getConnection(url);
+
+            String sql = "SELECT  * FROM  vehicle";
+
+            stmt = con.createStatement();
+            res = stmt.executeQuery(sql);
+            while (res.next()) {
+                System.out.println(res.getString("description") + " " + res.getObject("code"));
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                if (res != null) res.close();
+                if (stmt != null) stmt.close();
+                if (con != null) con.close();
+            } catch (Exception ex) {
+            }
+        }
     }
 
     @Override
@@ -32,28 +61,12 @@ public class MainApp extends Application {
 
         initRootLayout();
 
-        //showVehicleList();
-
     }
-
-//    public void showVehicleList() {
-//
-//        try {
-//            FXMLLoader loader = new FXMLLoader();
-//            loader.setLocation(MainApp.class.getResource("ArtPort/Catalog/Vehicle/ListForm.fxml"));
-//            AnchorPane vehicleList = (AnchorPane) loader.load();
-//
-//
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
-//    }
-
 
     public void initRootLayout() {
         try {
             FXMLLoader loader = new FXMLLoader();
-            loader.setLocation(MainApp.class.getResource("view/RootLayoutController.fxml"));
+            loader.setLocation(MainApp.class.getResource("Catalog\\Vehicle\\ListForm.fxml"));
             rootLayout = (AnchorPane) loader.load();
 
             Scene scene = new Scene(rootLayout);
@@ -61,7 +74,6 @@ public class MainApp extends Application {
             primaryStage.show();
         } catch (IOException e) {
             e.printStackTrace();
-
 
         }
     }

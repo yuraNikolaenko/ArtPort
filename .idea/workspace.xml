@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3426b57-bd5d-4e53-b6e7-4e4cc94f6148" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/unnamed.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sqlite_jdbc_3_7_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ArtPort/Catalog/Vehicle/VehicleDetails.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ArtPort/DBC/DbConnection.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/commons_collections4_4_1.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ArtPort.iml" afterPath="$PROJECT_DIR$/ArtPort.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ArtPort/Catalog/Vehicle/ListForm.fxml" afterPath="$PROJECT_DIR$/src/ArtPort/Catalog/Vehicle/ListForm.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ArtPort/Catalog/Vehicle/ListFormController.java" afterPath="$PROJECT_DIR$/src/ArtPort/Catalog/Vehicle/ListFormController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ArtPort/MainApp.java" afterPath="$PROJECT_DIR$/src/ArtPort/MainApp.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -46,24 +54,6 @@
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
     </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="artport.db" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="main" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="counterpartie" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -71,133 +61,7 @@
     <favorites_list name="CodeIris Favorites" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="MainApp.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ArtPort/MainApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ac061149-4ebe-402f-bd41-36bf2e81d558/console.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.counterpartie" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/132c16df/ac061149-4ebe-402f-bd41-36bf2e81d558/main.counterpartie">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="diagram.uml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/diagram.uml">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement />
-              <nodes>
-                <node x="959.0" y="865.5">ArtPort.Catalog.Subdivision</node>
-                <node x="751.0" y="854.5">ArtPort.Catalog.Storage</node>
-                <node x="269.0" y="334.5">ArtPort.Documents.Voyage</node>
-                <node x="0.0" y="302.0">ArtPort.Documents.Order</node>
-                <node x="95.75" y="0.0">ArtPort.Documents.AbstractDocument</node>
-                <node x="372.0" y="510.0">ArtPort.Catalog.AbstractCatalog</node>
-                <node x="0.0" y="843.0">ArtPort.Catalog.Vehicle.Vehicle</node>
-                <node x="634.0" y="876.5">ArtPort.Catalog.Manager</node>
-                <node x="254.0" y="876.5">ArtPort.Catalog.Customer</node>
-                <node x="477.0" y="865.5">ArtPort.Catalog.Good</node>
-                <node x="376.0" y="876.5">ArtPort.Catalog.Driver</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="ArtPort.Catalog.Driver" target="ArtPort.Catalog.AbstractCatalog">
-                  <point x="0.0" y="-15.0" />
-                  <point x="416.5" y="823.0" />
-                  <point x="495.92857142857144" y="823.0" />
-                  <point x="-49.571428571428555" y="136.5" />
-                </edge>
-                <edge source="ArtPort.Catalog.Manager" target="ArtPort.Catalog.AbstractCatalog">
-                  <point x="0.0" y="-15.0" />
-                  <point x="682.5" y="823.0" />
-                  <point x="595.0714285714287" y="823.0" />
-                  <point x="49.57142857142867" y="136.5" />
-                </edge>
-                <edge source="ArtPort.Catalog.Storage" target="ArtPort.Catalog.AbstractCatalog">
-                  <point x="0.0" y="-37.0" />
-                  <point x="845.0" y="813.0" />
-                  <point x="644.6428571428571" y="813.0" />
-                  <point x="99.14285714285711" y="136.5" />
-                </edge>
-                <edge source="ArtPort.Documents.Order" target="ArtPort.Documents.AbstractDocument">
-                  <point x="0.0" y="-81.5" />
-                  <point x="124.5" y="277.0" />
-                  <point x="177.75" y="277.0" />
-                  <point x="-82.0" y="126.0" />
-                </edge>
-                <edge source="ArtPort.Catalog.Customer" target="ArtPort.Catalog.AbstractCatalog">
-                  <point x="0.0" y="-15.0" />
-                  <point x="305.0" y="813.0" />
-                  <point x="446.3571428571429" y="813.0" />
-                  <point x="-99.14285714285711" y="136.5" />
-                </edge>
-                <edge source="ArtPort.Catalog.Subdivision" target="ArtPort.Catalog.AbstractCatalog">
-                  <point x="0.0" y="-26.0" />
-                  <point x="1041.5" y="803.0" />
-                  <point x="694.2142857142858" y="803.0" />
-                  <point x="148.71428571428578" y="136.5" />
-                </edge>
-                <edge source="ArtPort.Catalog.Vehicle.Vehicle" target="ArtPort.Catalog.AbstractCatalog">
-                  <point x="0.0" y="-48.5" />
-                  <point x="117.0" y="803.0" />
-                  <point x="396.7857142857143" y="803.0" />
-                  <point x="-148.71428571428572" y="136.5" />
-                </edge>
-                <edge source="ArtPort.Documents.Voyage" target="ArtPort.Documents.AbstractDocument">
-                  <point x="0.0" y="-49.0" />
-                  <point x="395.0" y="277.0" />
-                  <point x="341.75" y="277.0" />
-                  <point x="82.0" y="126.0" />
-                </edge>
-                <edge source="ArtPort.Catalog.Good" target="ArtPort.Catalog.AbstractCatalog">
-                  <point x="0.0" y="-26.0" />
-                  <point x="0.0" y="136.5" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="1.1713872832369943" x="184.88527017024427" y="78.62028127313104" />
-              <SelectedNodes />
-              <Categories>
-                <Category>Fields</Category>
-                <Category>Inner Classes</Category>
-                <Category>Properties</Category>
-                <Category>Methods</Category>
-              </Categories>
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -261,7 +125,13 @@
         <option value="$PROJECT_DIR$/src/ArtPort/Main.java" />
         <option value="$PROJECT_DIR$/src/ArtPort/View/RootLayout.fxml" />
         <option value="$PROJECT_DIR$/src/ArtPort/View/TrainingView.fxml" />
+        <option value="$PROJECT_DIR$/ArtPort.iml" />
+        <option value="$PROJECT_DIR$/src/ArtPort/DBC/DbConnection.java" />
+        <option value="$PROJECT_DIR$/src/ArtPort/Catalog/Vehicle/VehicleDetails.java" />
         <option value="$PROJECT_DIR$/src/ArtPort/MainApp.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ac061149-4ebe-402f-bd41-36bf2e81d558/console.sql" />
+        <option value="$PROJECT_DIR$/src/ArtPort/Catalog/Vehicle/ListForm.fxml" />
+        <option value="$PROJECT_DIR$/src/ArtPort/Catalog/Vehicle/ListFormController.java" />
       </list>
     </option>
   </component>
@@ -391,15 +261,15 @@
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
+      <flattenPackages ProjectPane="false" />
+      <showMembers ProjectPane="false" />
       <showModules />
       <showLibraryContents />
       <hideEmptyPackages />
-      <abbreviatePackageNames />
+      <abbreviatePackageNames ProjectPane="false" />
       <autoscrollToSource ProjectPane="true" />
-      <autoscrollFromSource />
-      <sortByType />
+      <autoscrollFromSource ProjectPane="true" />
+      <sortByType ProjectPane="true" />
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
@@ -415,6 +285,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ArtPort" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="ArtPort" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -429,7 +309,103 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ArtPort" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ArtPort" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ArtPort" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ArtPort" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Registers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ArtPort" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ArtPort" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ArtPort" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DBC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ArtPort" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ArtPort" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ArtPort" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ArtPort" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ArtPort" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ArtPort" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vehicle" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -438,11 +414,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="E:/Java/sqlite-jdbc-3.7.2.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ArtPort/Resource/folder.png" />
     <property name="settings.editor.selected.configurable" value="database.main" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="SearchEverywhereHistoryKey" value="JB&#9;PSI&#9;JAVA://javax.swing.JButton&#10;order&#9;PSI&#9;JAVA://ArtPort.Registers.AbstractAccumulationRegister#recorder" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -903,7 +879,7 @@
       <workItem from="1497518937486" duration="15720000" />
       <workItem from="1497608752122" duration="118000" />
       <workItem from="1497769893740" duration="2121000" />
-      <workItem from="1497797996271" duration="1364000" />
+      <workItem from="1497797996271" duration="21363000" />
     </task>
     <task id="LOCAL-00001" summary="Change Voyage">
       <created>1496589032946</created>
@@ -996,11 +972,18 @@
       <option name="project" value="LOCAL" />
       <updated>1497535613850</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Change Voyage">
+      <created>1497799380415</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1497799380415</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24995000" />
+    <option name="totallyTimeSpent" value="44994000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1013,7 +996,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="-8" width="1873" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1022,11 +1004,11 @@
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294702" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20640177" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25333333" sideWeight="0.49411765" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3991131" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39875388" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Code Iris" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7742826" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1034,10 +1016,10 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31983384" sideWeight="0.4977778" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30633438" sideWeight="0.4977778" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22847682" sideWeight="0.4909091" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33333334" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22847682" sideWeight="0.4909091" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26555556" sideWeight="0.5090909" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1126,14 +1108,28 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/ArtPort/Catalog/Vehicle/ListFormController.java</url>
+          <line>33</line>
+          <properties field="columnDescription" class="ArtPort.Catalog.Vehicle.ListFormController" />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/ArtPort/Catalog/Vehicle/ListFormController.java</url>
+          <line>44</line>
+          <properties field="icon" class="ArtPort.Catalog.Vehicle.ListFormController" />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="12" />
+      <option name="time" value="23" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="order" />
+        <watch expression="((Stmt)((RS)res).stmt).conn" custom="org.sqlite.RS,org.sqlite.Stmt" />
       </configuration>
     </watches-manager>
   </component>
@@ -1142,48 +1138,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="149" column="11" lean-forward="false" selection-start-line="149" selection-start-column="11" selection-end-line="149" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Date.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="130" column="13" lean-forward="false" selection-start-line="130" selection-start-column="13" selection-end-line="130" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="35" column="3" lean-forward="true" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArtPort/Catalog/Manager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/javax/swing/JButton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="78" column="39" lean-forward="true" selection-start-line="78" selection-start-column="39" selection-end-line="78" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/javax/swing/AbstractButton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -1269,13 +1223,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ArtPort.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ArtPort/Enums/AccumulationRecordType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1332,55 +1279,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArtPort/Catalog/Vehicle/DocumentForm.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="56" column="33" lean-forward="true" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ArtPort/ManagedApplicationModule.java" />
     <entry file="file://$PROJECT_DIR$/src/ArtPort/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/ArtPort/Catalog/Vehicle/ChoiceForm.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="61" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArtPort/Catalog/Vehicle/ChoiceFormController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArtPort/Catalog/Vehicle/DocumentFormController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArtPort/View/RootLayout.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="29" column="18" lean-forward="true" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ArtPort/View/TrainingView.fxml" />
     <entry file="file://$PROJECT_DIR$/src/ArtPort/View/TainingViewControler.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1430,33 +1330,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArtPort/Catalog/Vehicle/ListForm.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="32" column="89" lean-forward="true" selection-start-line="32" selection-start-column="89" selection-end-line="32" selection-end-column="89" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArtPort/Catalog/Vehicle/Vehicle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArtPort/Catalog/Vehicle/ListFormController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/132c16df/ac061149-4ebe-402f-bd41-36bf2e81d558/main.model">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -1464,27 +1337,6 @@
         </state>
       </provider>
       <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/132c16df/ac061149-4ebe-402f-bd41-36bf2e81d558/main.vehicle">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ac061149-4ebe-402f-bd41-36bf2e81d558/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
@@ -1510,74 +1362,21 @@
           <ID>JAVA</ID>
           <OriginalElement />
           <nodes>
-            <node x="959.0" y="865.5">ArtPort.Catalog.Subdivision</node>
-            <node x="751.0" y="854.5">ArtPort.Catalog.Storage</node>
-            <node x="269.0" y="334.5">ArtPort.Documents.Voyage</node>
-            <node x="0.0" y="302.0">ArtPort.Documents.Order</node>
-            <node x="95.75" y="0.0">ArtPort.Documents.AbstractDocument</node>
-            <node x="372.0" y="510.0">ArtPort.Catalog.AbstractCatalog</node>
-            <node x="0.0" y="843.0">ArtPort.Catalog.Vehicle.Vehicle</node>
-            <node x="634.0" y="876.5">ArtPort.Catalog.Manager</node>
-            <node x="254.0" y="876.5">ArtPort.Catalog.Customer</node>
-            <node x="477.0" y="865.5">ArtPort.Catalog.Good</node>
-            <node x="376.0" y="876.5">ArtPort.Catalog.Driver</node>
+            <node x="" y="">ArtPort.Catalog.Subdivision</node>
+            <node x="" y="">ArtPort.Catalog.Storage</node>
+            <node x="" y="">ArtPort.Documents.Voyage</node>
+            <node x="" y="">ArtPort.Documents.Order</node>
+            <node x="" y="">ArtPort.Documents.AbstractDocument</node>
+            <node x="" y="">ArtPort.Catalog.AbstractCatalog</node>
+            <node x="" y="">ArtPort.Catalog.Vehicle.Vehicle</node>
+            <node x="" y="">ArtPort.Catalog.Manager</node>
+            <node x="" y="">ArtPort.Catalog.Customer</node>
+            <node x="" y="">ArtPort.Catalog.Good</node>
+            <node x="" y="">ArtPort.Catalog.Driver</node>
           </nodes>
           <notes />
-          <edges>
-            <edge source="ArtPort.Catalog.Driver" target="ArtPort.Catalog.AbstractCatalog">
-              <point x="0.0" y="-15.0" />
-              <point x="416.5" y="823.0" />
-              <point x="495.92857142857144" y="823.0" />
-              <point x="-49.571428571428555" y="136.5" />
-            </edge>
-            <edge source="ArtPort.Catalog.Manager" target="ArtPort.Catalog.AbstractCatalog">
-              <point x="0.0" y="-15.0" />
-              <point x="682.5" y="823.0" />
-              <point x="595.0714285714287" y="823.0" />
-              <point x="49.57142857142867" y="136.5" />
-            </edge>
-            <edge source="ArtPort.Catalog.Storage" target="ArtPort.Catalog.AbstractCatalog">
-              <point x="0.0" y="-37.0" />
-              <point x="845.0" y="813.0" />
-              <point x="644.6428571428571" y="813.0" />
-              <point x="99.14285714285711" y="136.5" />
-            </edge>
-            <edge source="ArtPort.Documents.Order" target="ArtPort.Documents.AbstractDocument">
-              <point x="0.0" y="-81.5" />
-              <point x="124.5" y="277.0" />
-              <point x="177.75" y="277.0" />
-              <point x="-82.0" y="126.0" />
-            </edge>
-            <edge source="ArtPort.Catalog.Customer" target="ArtPort.Catalog.AbstractCatalog">
-              <point x="0.0" y="-15.0" />
-              <point x="305.0" y="813.0" />
-              <point x="446.3571428571429" y="813.0" />
-              <point x="-99.14285714285711" y="136.5" />
-            </edge>
-            <edge source="ArtPort.Catalog.Subdivision" target="ArtPort.Catalog.AbstractCatalog">
-              <point x="0.0" y="-26.0" />
-              <point x="1041.5" y="803.0" />
-              <point x="694.2142857142858" y="803.0" />
-              <point x="148.71428571428578" y="136.5" />
-            </edge>
-            <edge source="ArtPort.Catalog.Vehicle.Vehicle" target="ArtPort.Catalog.AbstractCatalog">
-              <point x="0.0" y="-48.5" />
-              <point x="117.0" y="803.0" />
-              <point x="396.7857142857143" y="803.0" />
-              <point x="-148.71428571428572" y="136.5" />
-            </edge>
-            <edge source="ArtPort.Documents.Voyage" target="ArtPort.Documents.AbstractDocument">
-              <point x="0.0" y="-49.0" />
-              <point x="395.0" y="277.0" />
-              <point x="341.75" y="277.0" />
-              <point x="82.0" y="126.0" />
-            </edge>
-            <edge source="ArtPort.Catalog.Good" target="ArtPort.Catalog.AbstractCatalog">
-              <point x="0.0" y="-26.0" />
-              <point x="0.0" y="136.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.1713872832369943" x="184.88527017024427" y="78.62028127313104" />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.1713872832369943" x="576.7283493708364" y="346.2649888971132" />
           <SelectedNodes />
           <Categories>
             <Category>Fields</Category>
@@ -1590,13 +1389,181 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArtPort/View/RootLayout.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="29" column="18" lean-forward="true" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="260" column="27" lean-forward="false" selection-start-line="260" selection-start-column="27" selection-end-line="260" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArtPort/Catalog/Vehicle/Vehicle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/sqlite-jdbc-3.7.2.jar!/org/sqlite/Conn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="355" column="0" lean-forward="false" selection-start-line="355" selection-start-column="0" selection-end-line="355" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArtPort.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/javafx-src.zip!/javafx/fxml/Initializable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="53" column="16" lean-forward="false" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ac061149-4ebe-402f-bd41-36bf2e81d558/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="86" lean-forward="false" selection-start-line="0" selection-start-column="86" selection-end-line="0" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/132c16df/ac061149-4ebe-402f-bd41-36bf2e81d558/main.vehicle">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArtPort/Catalog/Vehicle/ListForm.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="49" column="34" lean-forward="true" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
+          <folding>
+            <marker date="1497819595817" expanded="true" signature="1459:1647" ph="..." />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArtPort/Catalog/Vehicle/VehicleDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArtPort/Catalog/Vehicle/DocumentForm.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="56" column="33" lean-forward="true" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ArtPort/MainApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="612">
+          <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding>
+            <element signature="method#initDBC#0;class#MainApp#0" expanded="false" />
+            <marker date="1497814075603" expanded="true" signature="791:807" ph="SELECT v1.de... vehicle" />
+            <marker date="1497814075603" expanded="true" signature="791:814" ph="SELECT * FRO... vehicle" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArtPort/DBC/DbConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArtPort/Catalog/Vehicle/ChoiceForm.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="61" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArtPort/Catalog/Vehicle/ListFormController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="55" column="9" lean-forward="true" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
+            <marker date="1497821086940" expanded="true" signature="1691:1853" ph="SELECT vehic... vehicle" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArtPort/Catalog/Vehicle/ChoiceFormController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArtPort/Catalog/Vehicle/DocumentFormController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1606,10 +1573,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>unnamed</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1657,6 +1626,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1664,7 +1634,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>commons-collections4-4.1</last-edited>
+          <last-edited>sqlite-jdbc-3.7.2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

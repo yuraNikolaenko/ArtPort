@@ -1,54 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
+<?import javafx.geometry.*?>
 <?import javafx.scene.control.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.effect.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="300.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="ArtPort.Catalog.Vehicle.ListFormController">
+<AnchorPane prefHeight="393.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="ArtPort.Catalog.Vehicle.ListFormController">
   <children>
-    <SplitPane dividerPositions="0.6806020066889632" focusTraversable="true" prefHeight="300.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="-1.0" AnchorPane.topAnchor="0.0">
-      <items>
-        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+    <HBox layoutX="14.0" layoutY="14.0" prefHeight="85.0" prefWidth="317.0">
+      <children>
+        <VBox prefHeight="85.0" prefWidth="293.0">
           <children>
-            <TableView prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
-              <columns>
-                <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="100.0" text="Code" />
-                <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="283.0" text="Description" />
-              </columns>
-            </TableView>
+            <Label prefWidth="314.0" text="Vehicles">
+              <font>
+                <Font size="18.0" />
+              </font>
+            </Label>
+            <HBox id="HBox" alignment="CENTER" prefWidth="242.0" spacing="5.0">
+              <children>
+                <Button alignment="TOP_CENTER" cache="false" defaultButton="true" focusTraversable="true" mnemonicParsing="false" prefWidth="80.0" text="Create" textOverrun="ELLIPSIS" visible="true" HBox.hgrow="ALWAYS">
+                  <effect>
+                    <SepiaTone />
+                  </effect>
+                </Button>
+                <Button mnemonicParsing="false" prefWidth="80.0" text="Edit" />
+                <Button mnemonicParsing="false" prefWidth="80.0" text="Delete" />
+              </children>
+              <VBox.margin>
+                <Insets bottom="20.0" top="20.0" />
+              </VBox.margin>
+            </HBox>
+          </children>
+        </VBox>
+      </children>
+    </HBox>
+    <SplitPane dividerPositions="0.2491638795986622" focusTraversable="true" prefHeight="297.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="96.0">
+      <items>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="349.0" prefWidth="158.0">
+          <children>
+            <TreeView fx:id="treeView" prefHeight="335.0" prefWidth="146.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
           </children>
         </AnchorPane>
         <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
           <children>
-            <Label text="Vehicle details:" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="5.0" />
-            <GridPane AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="5.0">
-              <children>
-                <Label text="Description" GridPane.columnIndex="0" GridPane.rowIndex="1" />
-                <Label text="Model" GridPane.columnIndex="0" GridPane.rowIndex="5" />
-                <Label text="State number" GridPane.columnIndex="0" GridPane.rowIndex="4" />
-              </children>
-              <columnConstraints>
-                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-              </columnConstraints>
-              <rowConstraints>
-                <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-              </rowConstraints>
-            </GridPane>
-            <HBox id="HBox" alignment="CENTER" spacing="5.0" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="5.0">
-              <children>
-                <Button mnemonicParsing="false" text="New" />
-                <Button mnemonicParsing="false" text="Edit" />
-                <Button mnemonicParsing="false" text="Delete" />
-              </children>
-            </HBox>
+            <TableView fx:id="tableVehilce" prefHeight="295.0" prefWidth="446.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+              <columns>
+                <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="70.0" text="Code" fx:id="columnName" />
+                <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="144.0" text="Description" fx:id="columnDescription" />
+                <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="112.0" text="Model" fx:id="columnModel" />
+                <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="127.0" text="State number" fx:id="columnStateNumber" />
+              </columns>
+            </TableView>
           </children>
         </AnchorPane>
       </items>
